@@ -5,12 +5,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #33688d;
-    font-size: 36px;
+    color: lightcyan;
+    font-size: 48px;
+    padding: 2%;
+    margin-bottom: 5%;
     text-shadow: 3px 3px #102029;
 }
 .resume-container{
-    background-color:  #33688d;
+    background-color: rgb(191, 236, 236);
     border-radius: 5px;
     display: flex;
     flex-direction: row;
@@ -22,81 +24,50 @@
     flex: 45%;
     margin-left: 2%;
 }
-.profile h2{
+.h2-highlight{
     padding: 5px;
     background-color: lightblue;
     border: solid gray;
     border-radius: 5px;
     border-width: 2px;
     width: fit-content;
+    margin-bottom: 2%;
 }
 .experience{
     flex: 50%;
     margin-left: 2%;
 }
-.experience h2{
-    padding: 5px;
-    background-color: lightblue;
-    border: solid gray;
-    border-radius: 5px;
-    border-width: 2px;
-    width: fit-content;
-}
-
-.experience li{
+li{
     padding-left: 2%;
-    font-size: 18px;
+    font-size: 20px;
+
 }
 .apps{
     flex: 33%;
     margin-left: 2%;
 }
-.apps h2{
-    padding: 5px;
-    background-color: lightblue;
-    border: solid gray;
-    border-radius: 5px;
-    border-width: 2px;
-    width: fit-content;
-}
-.apps li{
-    padding-left: 2%;
-    font-size: 20px;
-}
+
 .skills{
     flex: 50%;
     margin-left: 14%;
 }
 
-.skills li{
-    padding-left: 2%;
-    font-size: 20px;
-}
+
+
 .coding-experience{
     flex: 40%;
     margin-left: 2%;
 }
-.coding-experience li{
-    padding-left: 2%;
-    font-size: 20px;
-}
+
+
 .ed{
     flex: 45%;
     margin-left: 2%;
 }
 
-h2{
-    padding: 5px;
-    background-color: lightblue;
-    border: solid gray;
-    border-radius: 5px;
-    border-width: 2px;
-    width: fit-content;
-}
 .badge{
     padding: 2%;
 }
-
 
 p{
     color: black;
@@ -113,6 +84,7 @@ p{
     color: aliceblue;
     width: 150px;
     height: 75px;
+    margin: 2%;
     box-shadow: 0px 3px 10px 3px #102029;
 }
 .pdf:hover{

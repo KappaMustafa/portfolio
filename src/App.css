@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,700;1,100;1,400&family=Nunito:wght@200;300&display=swap");
+
+html {
+    height: fit-content;
+  }
+
+  body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+  background-color: #274c5e;
+
+  }

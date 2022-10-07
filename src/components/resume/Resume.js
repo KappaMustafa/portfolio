@@ -9,7 +9,7 @@ function Resume() {
         <h1 className="header1">Mustafa's Resume</h1>
         <div className="resume-container">
           <div className="profile">
-            <h2>Profile</h2>
+            <h2 className="h2-highlight">Profile</h2>
             <p>
               A dedicated, self motivated, constantly-improving, full-stack web
               developer with a passion for design and development with great
@@ -20,40 +20,40 @@ function Resume() {
             </p>
           </div>
           <div className="experience">
-            <h2>Experience</h2>
+            <h2 className="h2-highlight">Experience</h2>
             <li>HTML, CSS, JavaScript, and React.</li>
             <li>jQuery and Bootstrap.</li>
             <li>SQL and NoSQL.</li>
             <li>Git.</li>
           </div>
           <div className="apps">
-            <h2>Apps</h2>
+            <h2 className="h2-highlight">Apps</h2>
             <li>Poke-Slap: A full-stack web game.</li>
             <li>MyDood: A social app made in React. </li>
             <li>Fresh Tomatoes: A web game made in JS.</li>
           </div>
           <div className="skills">
-            <h2> Skills</h2>
+            <h2 className="h2-highlight"> Skills</h2>
             <li>Excellent multi-tasking ability</li>
             <li>Fast Learner</li>
             <li>Self motivated</li>
-            <li>Great in team enviorments</li>
+            <li>Great in team environments</li>
           </div>
           <div className="coding-experience">
-            <h2>Coding Experience</h2>
-            <li>JavaScript, Node.js, jQuery, NPM, and Git</li>
+            <h2 className="h2-highlight">Coding Experience</h2>
             <li>HTML, CSS, and Bootstrap</li>
+            <li>JavaScript, Node.js, jQuery, NPM, and Git</li>
             <li>MySQL and mongoDB</li>
           </div>
           <div className="ed">
-            <h2>Education</h2>
+            <h2 className="h2-highlight">Education</h2>
             <p>
-              University Of Minnesota, Coding bootcamp: June, 2022 - September,
+              University Of Minnesota, Coding Bootcamp | June, 2022 - September,
               2022
             </p>
           </div>
           <div className="badge">
-            <h2>View my certification here:</h2>
+            <h2 className="h2-highlight">View my certification here:</h2>
             <a href="https://www.credly.com/badges/72bdec96-405a-4b64-9b31-56abf26a6514/public_url">
               <img
                 title="Certification Badge"
@@ -64,7 +64,7 @@ function Resume() {
             </a>
           </div>
           <div className="download">
-            <h2> Download a PDF of my resume here:</h2>
+            <h2 className="h2-highlight"> Download a PDF of my resume here:</h2>
             <a href={myPDF} download="Mustafas-Resume.pdf">
               <button className="pdf">Download Here</button>
             </a>
