@@ -1,19 +1,206 @@
-.about-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 36px ;
-    color: #33688d;
-    background-color: lightcyan;
-    box-shadow: 0px 3px 10px 3px #102029;
-    margin-top: 5%;
-    margin-bottom:15% ;
+.page-break {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bg_image{
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+p{
+
+    font-size: 20px;
+}
+.name-card{
+  padding-left: 15%;
+  padding-top:10% ;
+  font-size: 32pt;
+}
+.name{
+  color: white ;
 }
 
-.about-container p{
-    color: rgb(16, 3, 73);
-    font-size: 26px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 7%;
+.italic{
+  font-size: 22pt;
+  font-style: italic;
 }
+
+
+#right-btn{
+  border-bottom-right-radius: 20pt;
+  border-top-right-radius: 20pt;
+}
+#left-btn{
+  border-bottom-left-radius: 20pt;
+  border-top-left-radius: 20pt;
+  
+}
+.buttons{
+  padding-left: 20%;
+  padding-top: 7%;
+  padding-bottom: 20%;
+}
+button{
+  background-color: black;
+  opacity: 85%;
+  font-weight: 900;
+  padding: 5pt;
+  position: static;
+  border-width: 0px;
+  font-size: 20pt;
+  width:20%;
+  text-align: center;
+}
+a:link
+{
+   color: white;
+   text-decoration: none;
+}
+a:visited
+{
+   color: white;
+   text-decoration: none;
+}
+a:hover
+{
+   transition: 0.4s;
+   color: lightgreen;
+   text-decoration: none;
+}
+a:active
+{
+   color: white;
+   text-decoration: none;
+}
+
+
+
+.card-container{
+  background-color: black;
+  text-align: center;
+  position: static;
+  opacity: 100%;
+  height: fit-content;
+}
+.card-container h2{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: white;
+  font-size: 36pt;
+}
+
+.card-content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: left;
+  padding: 20px;
+  justify-content: space-around; 
+}
+.card-content p{
+  color:skyblue;
+  width: 400px;
+  padding-bottom:25% ;
+  transition: 0.4s;
+}
+.card-content p:hover{
+  color: gray;
+  width: 400px;
+}
+
+.card-container2{
+  margin-top: 10%;
+  background-color: black;
+  opacity: 85%;
+  text-align: center;
+  height: fit-content;
+  margin-bottom: 10%;
+}
+.card-container2 h2{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: white;
+  font-size: 36pt;
+}
+.card1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 10px;
+}
+.card2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 4%;
+  padding-right: 4%;
+  color: lightcyan;
+}
+.workimg{
+  border: solid;
+  border-radius: 20px;
+  border-width: 5px;
+  border: transparent;
+  border-color: rgb(0, 205, 212);
+  transition: 0.6s;
+}
+.workimg:hover{
+  box-shadow: 0px 3px 10px 3px lightcoral;
+}
+.proj-titles{
+  font-size: 28px;
+  color: white;
+}
+
+button:hover
+{
+   transition: 0.4s;
+   color: lightgreen;
+   text-decoration: none;
+}
+
+.pdf{
+  background-color: black;
+  text-decoration: none;
+  height: fit-content;
+  width:fit-content;
+  color: white;
+  padding: 1%;
+  margin: 3%;
+  align-items: center;
+  font-size: large;
+  border-bottom-left-radius: 20pt;
+  border-top-left-radius: 20pt;
+  border-bottom-right-radius: 20pt;
+  border-top-right-radius: 20pt;
+  transition: 0.5s;
+}
+.icons{
+  align-self: center;
+  padding: 5%;
+  margin: 3%;
+  height: fit-content;
+  width:fit-content;
+  color: white;
+  text-decoration: none;
+  transition: 0.4s;
+  }
+.icons:hover{
+  color: purple;
+  }
+
+
+@media screen and (max-width: 900px) {
+
+  button{
+    width: 30%;
+    padding: 5pt;
+    font-size: 12pt;
+    justify-items: center;
+  }
+  .buttons{
+    padding:10%
+  }
+  }
