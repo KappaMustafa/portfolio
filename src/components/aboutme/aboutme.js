@@ -129,7 +129,10 @@ function Aboutme() {
             <a className="icons" href="https://GitHub.com/KappaMustafa">
               <FontAwesomeIcon icon={faGithub} size="6x" />
             </a>
-            <a className="icons" href="https://www.linkedin.com/">
+            <a
+              className="icons"
+              href="https://www.linkedin.com/in/mustafa-aboghalyoun-059784253/"
+            >
               <FontAwesomeIcon icon={faLinkedin} size="6x" />
             </a>
           </p>
